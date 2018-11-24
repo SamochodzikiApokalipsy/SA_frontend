@@ -3,5 +3,9 @@
     flex-flow: row;
     justify-content: stretch;
     border-bottom: 1px solid gray;
-    padding: 5px;
+    padding: 5px 0;
+}
+
+.laneContainer:last-child {
+    border-bottom: 0 solid gray;
 }

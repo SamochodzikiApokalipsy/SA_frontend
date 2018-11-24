@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import { Provider } from 'react-redux';
 
 import RaceScreen from '../Screens/RaceScreen';
 
 import './styles/default.scss';
+import store from './store';
 
 const cars = [
     {
@@ -22,9 +24,12 @@ const cars = [
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                <RaceScreen cars={ cars } />
-            </div>
+            <Provider store={ store }>
+                <div className="App">
+                    <h1 className="title">Samochodziki apokalipsy</h1>
+                    <RaceScreen />
+                </div>
+            </Provider>
         );
     }
 }
