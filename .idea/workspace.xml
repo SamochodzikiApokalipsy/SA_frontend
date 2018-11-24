@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d996e32-0fc8-4ba1-8f75-60daa2dd7c63" name="Default Changelist" comment="Add Car and Lane components">
-      <change afterPath="$PROJECT_DIR$/src/Containers/RaceContainer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/cars/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/cars/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/cars/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/getResponseFromEndpoint.js" afterDir="false" />
+    <list default="true" id="0d996e32-0fc8-4ba1-8f75-60daa2dd7c63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Containers/RaceContainer/styles/default.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/styles/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/styles/default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Car/styles/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Car/styles/default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Lane/Lane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Lane/Lane.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Lane/styles/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Lane/styles/default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/RaceContainer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/RaceContainer/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/RaceScreen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/RaceScreen/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/RaceScreen/styles/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/RaceScreen/styles/default.scss" afterDir="false" />
     </list>
@@ -25,59 +23,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44428968">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/App/store.js">
+            <entry file="file://$PROJECT_DIR$/src/App/styles/default.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret column="5" selection-start-column="5" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#0#96#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Redux/cars/reducer.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-                  <folding>
-                    <element signature="e#0#31#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Redux/cars/types.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Redux/cars/actions.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-                  <folding>
-                    <element signature="e#0#80#0" expanded="true" />
-                  </folding>
+                  <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Utils/getResponseFromEndpoint.js">
+            <entry file="file://$PROJECT_DIR$/src/Containers/RaceContainer/styles/default.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Components/Lane/styles/default.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -86,23 +57,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Containers/RaceContainer/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#0#30#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+                <state relative-caret-position="105">
+                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -111,19 +70,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Screens/RaceScreen/index.js">
+            <entry file="file://$PROJECT_DIR$/src/Components/Car/Car.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Components/Lane/Lane.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+                <state>
+                  <caret selection-end-line="8" selection-end-column="19" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -132,10 +82,34 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Components/Car/Car.js">
+            <entry file="file://$PROJECT_DIR$/src/Screens/RaceScreen/index.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="75">
-                  <caret line="5" column="69" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Containers/RaceContainer/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="690">
+                  <caret line="46" column="107" selection-start-line="46" selection-start-column="107" selection-end-line="46" selection-end-column="107" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Components/Lane/Lane.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -178,22 +152,23 @@
         <option value="$PROJECT_DIR$/src/Components/Car/index.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.dev.js" />
         <option value="$PROJECT_DIR$/src/Components/Car/styles/carColors.js" />
-        <option value="$PROJECT_DIR$/src/Components/Car/styles/default.scss" />
         <option value="$PROJECT_DIR$/src/Components/Lane/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/Car/Car.js" />
-        <option value="$PROJECT_DIR$/src/Components/Lane/Lane.js" />
-        <option value="$PROJECT_DIR$/src/App/styles/default.scss" />
-        <option value="$PROJECT_DIR$/src/Components/Lane/styles/default.scss" />
-        <option value="$PROJECT_DIR$/src/Screens/RaceScreen/styles/default.scss" />
         <option value="$PROJECT_DIR$/src/Redux/reducers.js" />
         <option value="$PROJECT_DIR$/src/Redux/cars/action.js" />
         <option value="$PROJECT_DIR$/src/Redux/cars/types.js" />
-        <option value="$PROJECT_DIR$/src/App/App.js" />
         <option value="$PROJECT_DIR$/src/Utils/getResponseFromEndpoint.js" />
         <option value="$PROJECT_DIR$/src/Redux/cars/reducer.js" />
         <option value="$PROJECT_DIR$/src/Redux/cars/actions.js" />
+        <option value="$PROJECT_DIR$/src/App/App.js" />
         <option value="$PROJECT_DIR$/src/Screens/RaceScreen/index.js" />
+        <option value="$PROJECT_DIR$/src/Screens/RaceScreen/styles/default.scss" />
+        <option value="$PROJECT_DIR$/src/Components/Car/styles/default.scss" />
+        <option value="$PROJECT_DIR$/src/Components/Car/Car.js" />
+        <option value="$PROJECT_DIR$/src/Components/Lane/Lane.js" />
+        <option value="$PROJECT_DIR$/src/Components/Lane/styles/default.scss" />
+        <option value="$PROJECT_DIR$/src/App/styles/default.scss" />
         <option value="$PROJECT_DIR$/src/Containers/RaceContainer/index.js" />
+        <option value="$PROJECT_DIR$/src/Containers/RaceContainer/styles/default.scss" />
       </list>
     </option>
   </component>
@@ -235,20 +210,86 @@
               <item name="sm_frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="sm_frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sm_frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sm_frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sm_frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sm_frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sm_frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sm_frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Car" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sm_frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sm_frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Lane" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sm_frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sm_frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Lane" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sm_frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sm_frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sm_frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="sm_frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Redux" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
+              <item name="RaceContainer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sm_frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="sm_frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Redux" type="462c0819:PsiDirectoryNode" />
-              <item name="cars" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
+              <item name="RaceContainer" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sm_frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sm_frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sm_frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sm_frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Screens" type="462c0819:PsiDirectoryNode" />
+              <item name="RaceScreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sm_frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sm_frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Screens" type="462c0819:PsiDirectoryNode" />
+              <item name="RaceScreen" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,6 +317,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Containers/RaceContainer" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -331,7 +373,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543054935792</updated>
-      <workItem from="1543054937515" duration="15707000" />
+      <workItem from="1543054937515" duration="21678000" />
     </task>
     <task id="LOCAL-00001" summary="First!">
       <created>1543055271206</created>
@@ -361,11 +403,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543066576580</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Get cars from backend">
+      <created>1543083513824</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543083513825</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15707000" />
+    <option name="totallyTimeSpent" value="21678000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,21 +430,21 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="npm" order="1" sideWeight="0.50189155" side_tool="true" visible="true" weight="0.13441832" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49810845" visible="true" weight="0.13441832" />
+      <window_info id="npm" order="1" sideWeight="0.5044136" side_tool="true" visible="true" weight="0.13441832" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.4955864" visible="true" weight="0.13441832" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.26530612" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50090414" side_tool="true" weight="0.23163265" />
-      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49909583" weight="0.23163265" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4996986" visible="true" weight="0.19081633" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.26530612" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50090414" side_tool="true" weight="0.23163265" />
+      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49909583" weight="0.23163265" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4996986" visible="true" weight="0.19081633" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -435,7 +484,8 @@
     <MESSAGE value="Ejected" />
     <MESSAGE value="Clean up" />
     <MESSAGE value="Add Car and Lane components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Car and Lane components" />
+    <MESSAGE value="Get cars from backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get cars from backend" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
@@ -533,54 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Car/Car.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="69" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Lane/Lane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/styles/default.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Screens/RaceScreen/styles/default.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Lane/styles/default.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Car/styles/default.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Redux/reducers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -615,16 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/cars/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Utils/getResponseFromEndpoint.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -632,30 +624,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/cars/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Car/styles/default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Screens/RaceScreen/styles/default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Car/Car.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Screens/RaceScreen/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Lane/Lane.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Lane/styles/default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Containers/RaceContainer/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="690">
+          <caret line="46" column="107" selection-start-line="46" selection-start-column="107" selection-end-line="46" selection-end-column="107" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/styles/default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/RaceContainer/styles/default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -7,8 +7,11 @@ import './styles/default.scss';
 class RaceScreen extends Component {
     render() {
         return (
-            <div className="raceContainer">
+            <div className="raceScreenContainer" >
                 <RaceContainer />
+                <div className="finishText">
+                    The end is near
+                </div>
             </div>
         );
     }

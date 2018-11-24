@@ -6,21 +6,6 @@ import RaceScreen from '../Screens/RaceScreen';
 import './styles/default.scss';
 import store from './store';
 
-const cars = [
-    {
-        color: "#fa21fa",
-        position: 10,
-    },
-    {
-        color: "#2aaffa",
-        position: 30,
-    },
-    {
-        color: "#121212",
-        position: 70,
-    },
-];
-
 class App extends Component {
     render() {
         return (

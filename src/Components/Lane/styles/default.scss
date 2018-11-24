@@ -1,11 +1,14 @@
 .laneContainer {
-    display: flex;
-    flex-flow: row;
-    justify-content: stretch;
-    border-bottom: 1px solid gray;
-    padding: 5px 0;
+    border-right: 1px solid gray;
+    padding: 0 5px;
+    position: relative;
+    width: 50px;
+
+    > div {
+        position: absolute;
+    }
 }
 
 .laneContainer:last-child {
-    border-bottom: 0 solid gray;
+    border-right: 0 solid gray;
 }

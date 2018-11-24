@@ -5,7 +5,7 @@ import './styles/default.scss';
 
 const Lane = ({ carColor, carPosition }) => (
     <div className="laneContainer" >
-        <div style={{ marginLeft: carPosition }} >
+        <div style={{ top: carPosition }} >
             <Car color={ carColor } />
         </div>
     </div>

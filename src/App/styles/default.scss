@@ -1,18 +1,11 @@
 .App {
-    top: 0;
-    left: 0;
     width: 100%;
-    text-align: center;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    position: absolute;
+    background-color: #454849;
 
     .title {
         text-align: center;
-        color: darkred;
-        font-size: 40px;
-        padding: 30px 0;
         text-transform: uppercase;
     }
 }
