@@ -1,6 +1,17 @@
 .laneContainer {
-    border-right: 1px solid gray;
-    padding: 0 5px;
+    border-right-width: 5px;
+    border-right-style: solid;
+    -webkit-border-image:
+            -webkit-gradient(linear, 0 0, 0 100%, from(#4d1e1e), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image:
+            -webkit-linear-gradient(#4d1e1e, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+            -moz-linear-gradient(#4d1e1e, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image:
+            -o-linear-gradient(#4d1e1e, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+            linear-gradient(to bottom, #4d1e1e, rgba(0, 0, 0, 0)) 1 100%;
+    padding: 0 20px;
     position: relative;
     width: 50px;
 
