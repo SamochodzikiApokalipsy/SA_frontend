@@ -24,6 +24,31 @@ const parseCar = car => ({
 
 const mapStateToProps = state => ({
     cars: state.cars.cars,
+    // cars: [{
+    //     name: '1',
+    //     pointPercentege: 0.1,
+    // },{
+    //     name: '1',
+    //     pointPercentege: 0.3,
+    // },{
+    //     name: '1',
+    //     pointPercentege: 0.5,
+    // },{
+    //     name: '1',
+    //     pointPercentege: 1,
+    // },{
+    //     name: '1',
+    //     pointPercentege: 1,
+    // },{
+    //     name: '1',
+    //     pointPercentege: 1,
+    // },{
+    //     name: '1',
+    //     pointPercentege: 1,
+    // },{
+    //     name: '1',
+    //     pointPercentege: 1,
+    // }],
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -44,7 +69,7 @@ class RaceContainer extends Component {
             <div className="raceContainer">
                 {cars.map(singleCar => {
                     const car = parseCar(singleCar);
-                    return (<Lane key={ car.color } carColor={ car.color } carPosition={ `${car.position}px` }/>)
+                    return (<Lane key={ car.color } carColor={ car.color } carName={ car.name } carPosition={ `${car.position}px` } />)
                 })}
             </div>
         );

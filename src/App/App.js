@@ -13,11 +13,11 @@ class App extends Component {
         return (
             <Provider store={ store }>
                 <div className="App">
-                    <img src={ image } />
-                    <div className="content">
-                        <h1 className="title">
+                    <h1 className="title">
                             What will destroy us
-                        </h1>
+                    </h1>
+                    <div className="content">
+                        <img src={ image } />
                         <RaceScreen />
                     </div>
                 </div>

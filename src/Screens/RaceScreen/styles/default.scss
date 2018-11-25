@@ -1,9 +1,11 @@
 .raceScreenContainer {
-    background-color: rgb(152, 19, 20);
+    background: linear-gradient(rgb(152, 19, 20), #1b1b1b);
+    width: 100%;
 
     .finishText {
-        font-size: 40px;
+        font-size: 70px;
         color: #851413;
+        padding: 10px 0 100px 0;
         text-transform: uppercase;
         text-align: center;
     }

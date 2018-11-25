@@ -1,22 +1,19 @@
 .laneContainer {
     border-right-width: 5px;
     border-right-style: solid;
-    -webkit-border-image:
-            -webkit-gradient(linear, 0 0, 0 100%, from(#4d1e1e), to(rgba(0, 0, 0, 0))) 1 100%;
-    -webkit-border-image:
-            -webkit-linear-gradient(#4d1e1e, rgba(0, 0, 0, 0)) 1 100%;
-    -moz-border-image:
-            -moz-linear-gradient(#4d1e1e, rgba(0, 0, 0, 0)) 1 100%;
-    -o-border-image:
-            -o-linear-gradient(#4d1e1e, rgba(0, 0, 0, 0)) 1 100%;
-    border-image:
-            linear-gradient(to bottom, #4d1e1e, rgba(0, 0, 0, 0)) 1 100%;
-    padding: 0 20px;
+    border-image: linear-gradient(to bottom, #4d1e1e, rgba(0, 0, 0, 0)) 1 100%;
+    width: 100px;
     position: relative;
-    width: 50px;
 
-    > div {
+    .car {
         position: absolute;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .carName {
+        text-align: center;
+        padding-bottom: 20px;
     }
 }
 

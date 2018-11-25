@@ -3,9 +3,12 @@ import Car from '../Car';
 
 import './styles/default.scss';
 
-const Lane = ({ carColor, carPosition }) => (
+const Lane = ({ carColor, carPosition, carName }) => (
     <div className="laneContainer" >
-        <div style={{ top: carPosition }} >
+        <div className="carName" >
+            { carName }
+        </div>
+        <div className="car" style={{ top: carPosition }} >
             <Car color={ carColor } />
         </div>
     </div>
