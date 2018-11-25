@@ -2,8 +2,10 @@ import React from 'react';
 
 import './styles/default.scss';
 
-const Car = ({color}) => (
-    <div className="carContainer" style={{backgroundColor: color}} />
+const Car = ({color, texture}) => (
+    <div className="carContainer">
+        <img src={ texture } />
+    </div>
 );
 
 export default Car;

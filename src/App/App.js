@@ -1,29 +1,36 @@
 import React, { Component } from 'react';
-import { Provider } from 'react-redux';
+import { connect } from 'react-redux';
 
 import RaceScreen from '../Screens/RaceScreen';
+import WelcomeScreen from '../Screens/WelcomeScreen';
 
 import './styles/default.scss';
-import image from './styles/rays.png';
 
-import store from './store';
+const mapStateToProps = state => ({
+    isRaceScreen: state.screens.race,
+});
 
 class App extends Component {
     render() {
-        return (
-            <Provider store={ store }>
+        const {isRaceScreen} = this.props;
+        if(isRaceScreen) {
+            return (
                 <div className="App">
-                    <h1 className="title">
-                            What will destroy us
-                    </h1>
-                    <div className="content">
-                        <img src={ image } />
-                        <RaceScreen />
-                    </div>
+                    <RaceScreen />
                 </div>
-            </Provider>
-        );
+            )
+        }
+        else {
+            return (
+                <div className="App">
+                    <WelcomeScreen />
+                </div>
+            );
+        }
     }
 }
 
-export default App;
+export default connect(
+    mapStateToProps,
+    null
+)(App);

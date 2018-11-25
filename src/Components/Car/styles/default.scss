@@ -1,8 +1,10 @@
 .carContainer {
-    background-color: red;
-    width: 50px;
     height: 100px;
 
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+
+    img {
+        height: 100px;
+    }
 }
